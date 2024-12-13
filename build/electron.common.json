@@ -1,6 +1,6 @@
 {
-  "productName": "Yadds-Electron",
-  "appId": "com.shensven.yaddselectron",
+  "productName": "Yadds",
+  "appId": "com.syntachiato.yadds",
   "buildVersion": 1,
   "asar": true,
   "asarUnpack": "**\\*.{node,dll}",
@@ -14,7 +14,7 @@
   "extraResources": ["./assets/**"],
   "publish": {
     "provider": "github",
-    "owner": "shensven",
-    "repo": "Yadds-Electron"
+    "owner": "syntachiato",
+    "repo": "Yadds"
   }
 }

@@ -1,21 +1,20 @@
 # Yadds
 
-[![GitHub](https://img.shields.io/github/license/shensven/Yadds)](./LICENSE)
-[![](https://img.shields.io/github/package-json/dependency-version/shensven/Yadds/dev/electron)](./package.json)
-[![](https://img.shields.io/github/package-json/dependency-version/shensven/Yadds/react)](./package.json)
-[![Test](https://github.com/shensven/Yadds/actions/workflows/test.yml/badge.svg?branch=dev)](https://github.com/shensven/Yadds/actions/workflows/test.yml)
-[![Publish](https://github.com/shensven/Yadds/actions/workflows/publish.yml/badge.svg?branch=main)](https://github.com/shensven/Yadds/actions/workflows/publish.yml)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2c554add7a15405094f0433d1c903f41)](https://app.codacy.com/gh/shensven/Yadds?utm_source=github.com&utm_medium=referral&utm_content=shensven/Yadds&utm_campaign=Badge_Grade_Settings)
-[![Crowdin](https://badges.crowdin.net/yadds/localized.svg)](https://crowdin.com/project/yadds)
+[![GitHub](https://img.shields.io/github/license/syntachiato/Yadds)](./LICENSE)
+[![](https://img.shields.io/github/package-json/dependency-version/syntachiato/Yadds/dev/electron)](./package.json)
+[![](https://img.shields.io/github/package-json/dependency-version/syntachiato/Yadds/react)](./package.json)
+[![Test](https://github.com/syntachiato/Yadds/actions/workflows/test.yml/badge.svg?branch=dev)](https://github.com/syntachiato/Yadds/actions/workflows/test.yml)
 
-⚠️ This repository is no longer maintained and is currently being developed in native languages for macOS and Windows respectively, so stay tuned!
+> [!CAUTION]
+> The repository is no longer maintained
 
-English | [简体中文](./README-zh-hans.md)
+> [!NOTE]
+> The project has switched to native SwiftUI for `macOS` / `iOS`
+>
+> New name & upcoming app → `https:// swads.app`
 
 ## ✨ FEATURES
 
-- [x] NOT only free also open source
-- [x] Does NOT collect any information from users
 - [x] Cross-platform support (macOS, Windows, Linux)
 - [x] Multi-language hot-switching (English, 简体中文, 繁體中文, 日本語 and etc.)
 - [x] Dark mode
@@ -27,15 +26,9 @@ English | [简体中文](./README-zh-hans.md)
 
 ## 🔨 BUILD
 
-### INTRO
-
-- Written with [Electron](https://www.electronjs.org/) & [React](https://reactjs.org/)
-- To keep dependencies up to date under the same major version via [Dependabot](https://github.com/features/security/software-supply-chain)
-- Testing and continuous integration via [Github Actions](https://github.com/shensven/Readhubn/actions)
-
 ### PREREQUISITES
 
-- [Node 14](https://nodejs.org) or higher, [nvm](https://github.com/nvm-sh/nvm) or [nvm-windows](https://github.com/coreybutler/nvm-windows) is recommended for installation
+- [Node 14](https://nodejs.org) or higher
 - [npm 8](https://www.npmjs.com/package/npm) or higher
 
 ### STARTING DEVELOPMENT
@@ -65,4 +58,4 @@ npm run package
 
 ## 📜 LICENSE
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fshensven%2FYadds.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fshensven%2FYadds?ref=badge_large)
+GPL-3.0 License

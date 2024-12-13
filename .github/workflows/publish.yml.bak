@@ -12,7 +12,7 @@ jobs:
   get_version:
     name: Get version
     runs-on: ubuntu-latest
-    if: ${{ github.repository_owner == 'shensven' }}
+    if: ${{ github.repository_owner == 'syntachiato' }}
     outputs:
       APP_VERSION: ${{ steps.get-version.outputs.APP_VERSION }}
 
@@ -102,7 +102,7 @@ jobs:
           npm run package:mas
           xcrun altool --upload-app \
             --type macos \
-            --file "release/build/mas/Yadds-Electron-${{ needs.get_version.outputs.APP_VERSION }}.pkg" \
+            --file "release/build/mas/Yadds-${{ needs.get_version.outputs.APP_VERSION }}.pkg" \
             --username "$APPLE_ID" \
             --password "$APPLE_ID_PASS"
 

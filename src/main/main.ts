@@ -406,15 +406,15 @@ ipcMain.handle('top-menu-for-app:create', async (_, args: MenuItemsInApp) => {
     const subMenuHelp: MenuItemConstructorOptions = {
       label: args.help,
       submenu: [
-        { label: args.openYaddsWebsite, click: () => shell.openExternal('https://github.com/shensven/Yadds-Electron') },
+        { label: args.openYaddsWebsite, click: () => shell.openExternal('https://github.com/syntachiato/Yadds') },
         { type: 'separator' },
         {
           label: args.openYaddsRepository,
-          click: () => shell.openExternal('https://github.com/shensven/Yadds-Electron'),
+          click: () => shell.openExternal('https://github.com/syntachiato/Yadds'),
         },
         {
           label: args.reportABug,
-          click: () => shell.openExternal('https://github.com/shensven/Yadds-Electron/issues'),
+          click: () => shell.openExternal('https://github.com/syntachiato/Yadds/issues'),
         },
       ],
     };
