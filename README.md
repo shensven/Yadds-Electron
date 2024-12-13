@@ -11,7 +11,7 @@
 > [!NOTE]
 > The project has switched to native SwiftUI for `macOS` / `iOS`
 >
-> New name & upcoming app → `https:// swads.app`
+> New name & upcoming app → [Swads.app](https://swads.app)
 
 ## ✨ FEATURES
 
